@@ -2,13 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,500,500italic,600,600italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* Imports*/
-@import 'compass';
-@import 'compass/reset';
 @import 'partials/typography';
 @import 'partials/buttons';
 @import 'partials/colors';
 @import 'partials/layout';
-@import 'partials/video_skin';
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -905,7 +902,7 @@ Latest articles
             color: $white;
             background-color: $teal;
 
-            @include border-radius(40px);
+            border-radius:40px;
         }
         figure.has-overlay
         {
@@ -1029,7 +1026,7 @@ Latest articles
         background-color: none;
         background-position: 280px 5px;
 
-        @include border-radius(0);
+        border-radius:0;
         -webkit-appearance: none;
            -moz-appearance: none;
         &:focus
@@ -1349,7 +1346,7 @@ Share component
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgba(50,57,74,.31);
 
-    @include border-radius(5px);
+    border-radius:5px;
     &:after
     {
         position: absolute;
