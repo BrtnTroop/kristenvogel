@@ -641,18 +641,19 @@ div.mouse {
 Collective
 ========================================================================== */
 .collective p {
-  padding-bottom: 25px; }
+  padding-bottom: 5px; }
 .collective .video-player {
   display: inline-block;
-  margin: 25px 0 50px -100px;
-  padding: 10px;
-  background-color: #F4F6F9; }
+  margin: 5px 0 10px -100px;
+  padding: 5px;
+  background-color: #fff; }
 
 /* ==========================================================================
 Stats
 ========================================================================== */
 .stats {
-  background: url("../img/stats-bg.jpg") no-repeat center center;
+/*background: url("../img/stats-bg.jpg") no-repeat center center;*/
+  background: #8A9097 no-repeat center center;
   background-size: cover; }
   .stats i.icon {
     font-size: 50px;
@@ -693,7 +694,7 @@ Crew
   transition: all 300ms;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover; } */
   .crew article.crew-member figure {
     display: table;
     width: calc(100% + 1px);
