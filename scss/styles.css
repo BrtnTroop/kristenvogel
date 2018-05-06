@@ -1096,6 +1096,7 @@ Responsive Media Queries
     margin-right: 10px; }
 
   .header-nav-wrapper .logo {
+    padding: 15px;
     width: 280px; } }
 @media screen and (max-width: 1024px) {
   .primary-nav-wrapper {
