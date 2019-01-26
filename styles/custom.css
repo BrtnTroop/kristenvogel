@@ -1,0 +1,35 @@
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
+
+html {
+    font-family: 'Muli', sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+
+    color: #303030;
+}
+
+div {
+  height: 100%;
+  display: table;
+  margin: auto;
+}
+
+div div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
